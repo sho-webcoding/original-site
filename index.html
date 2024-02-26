@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龍泉寺の湯</title>
+    <link rel="icon" href="img/favicon.ico">
+    <!-- 下はnoto serif fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+    <!-- 下はreggae one fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <!-- 下は sawarabi mincho fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <!-- 下はold mincho -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="scss\style.css">
+    <link rel="stylesheet" href="responsive\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-logo">
+            <a href="">
+                <img src="source\header-logo.svg" alt="温泉ロゴ">
+            </a>
+        </h1>
+        <nav class="header-menu">
+            <a class="pc">利用案内・料金・アクセス</a>
+            <a class="media-query" href="">利用案内<br>料金・アクセス</a>
+            <button class="hamburger">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div class="mainvisual">
+            <video src="source\mainvisual1.mp4" autoplay muted loop></video>
+            <h1 class="logo">龍泉寺の湯</h1>
+            <div class="opening">
+                <div class="wrapper">
+                    <h2 class="date"><time datetime="2024-01-04 12:00">1/4</time></h2>
+                    <div class="hour">
+                        <h4>12:00-22:00</h4>
+                        <p>（最終受付時間　21:00）</p>
+                    </div>
+                    <h2>営業中</h2>
+                </div>
+            </div>
+        </div>
+        <section class="strong-point">
+            <div class="drink-in-spring content">
+                <div class="info">
+                    <h2>温泉内で<br>ドリンクが飲める</h2>
+                    <p>喉乾いても、水しか飲めなかったのが<br>自社の温泉ではお酒やドリンクを<br>飲みながら温泉を満喫できます
+                    </p>
+                </div>
+                <video src="source\drinkng-in-a-spring.mp4" autoplay loop muted alt="drink-in-spring">
+            </div>
+            <div class="about-sauna content">
+                <img src="source\サウナ整い椅子.jpg" alt="">
+                <div class="info">
+                    <h2>雨でも冬でも<br>最高にトトノウ体</h2>
+                    <p>悪天候の日は、どうしても整いにくい。<br>そんな日でも、最大限に整えるように<br>整い椅子を屋内外に設置する事で<br>いつでも整える環境を提供
+                    </p>
+                </div>
+            </div>
+            <div class="food content">
+                <div class="info">
+                    <h2>味覚も整う<br>贅沢な料理を提供</h2>
+                    <p>地域の特産品を最大限に生かした<br>自慢の定食をサウナ後に食べて<br>さらにリラックスを楽しみましょう</p>
+                </div>
+                <img src="source\懐石料理1.jpg" alt="">
+            </div>
+            <div class="natural-work content">
+                <img src="source\ワーケーション1.jpg" alt="">
+                <div class="info">
+                    <h2>自然の中でも<br>集中して仕事出来る</h2>
+                    <p>当店では、サウナ後の仕事が出来るように<br>景色の綺麗なコワーキングスペースを完備。<br>コンセントもありますのでサウナ後に<br>いつもと違う仕事の雰囲気を体験</p>
+                </div>
+            </div>
+        </section>
+        <section class="monthly-event">
+            <h2>今月のイベント</h2>
+            <div class="monthly-event-info">
+                <li class="top-left monthly-event-content">
+                    <img src="source\水風呂1.jpg" alt="">
+                    <div class="text">
+                        <p class="date">2023.12.10</p>
+                        <p class="summary">水曜開催　水風呂の日!!</p>
+                    </div>
+                </li>
+                <li class="top-right monthly-event-content">
+                    <img src="source\イチゴ出荷.jpg" alt="">
+                    <div class="text">
+                        <p class="date">2024.02.15</p>
+                        <p class="summary">地元イチゴが出荷されました！</p>
+                    </div>
+                </li>
+                <li class="bottom-left monthly-event-content">
+                    <img src="source\クーポン券.jpg" alt="">
+                    <div class="text">
+                        <p class="date">2024.03.04</p>
+                        <p class="summary">サウナ入場回数券が2割引き！</p>
+                    </div>
+                </li>
+                <li class="bottom-right monthly-event-content">
+                    <img src="source\スパイスカレー.jpg" alt="">
+                    <div class="text">
+                        <p class="date">2024.06.28</p>
+                        <p class="summary">期間限定スパイスカレー</p>
+                    </div>
+                </li>
+            </div>
+            <div class="btn">
+                <button>一覧</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <h1 class="footer-info-logo">
+                <a href="">
+                    <img src="source\header-logo.svg" alt="温泉ロゴ">
+                    <p>龍泉寺の湯</p>
+                </a>
+            </h1>
+            <p class="footer-info-address">
+                〒123-4567 東京都東京市東京1140-3
+            </p>
+            <p class="footer-info-tel">
+                tel.
+                <a href="">0123-456-789</a>
+            </p>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-nav-sns">
+                <p class="follow-us">follow us</p>
+                <ul>
+                    <li>
+                        <img src="source\instagram\03 Black Glyph\Instagram_Glyph_Black.png" alt="instagram">
+                        <p>instagram</p>
+                    </li>
+                    <li>
+                        <img src="source\x-logo\logo-black.png" alt="x-logo">
+                        <p>X</p>
+                    </li>
+                    <li>
+                        <img src="source\facebook\Facebook Brand Asset Pack\Logo\Primary Logo\Facebook_Logo_Primary.png"
+                            alt="facebook">
+                        <p>facebook</p>
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer-nav-menu">
+                <li>
+                    <h5>利用案内・料金・アクセス</h5>
+                </li>
+                <li>
+                    <h5>館内</h5>
+                </li>
+                <li>
+                    <h5>お食事</h5>
+                </li>
+                <li>
+                    <h5>お知らせ</h5>
+                </li>
+                <li>
+                    <h5>温泉設備情報</h5>
+                </li>
+                <li>
+                    <h5>お問い合わせ</h5>
+                </li>
+                <li>
+                    <h5>採用情報</h5>
+                </li>
+                <li>
+                    <h5>プライバシーポリシー</h5>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
